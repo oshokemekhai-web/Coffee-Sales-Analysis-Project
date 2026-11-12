@@ -5,7 +5,7 @@
 - [Project Overview](#project-overview)
 - [Cleaning and Preparation](#cleaning-and-preparation)
 - [Next Steps](#next-steps)
-- [Executive Summary, Key Findings and Recommendations](#executive-summary,-key-findings-and-recommendations)
+- [Executive Summary Key Findings and Recommendations](#executive-summary-key-findings-and-recommendations)
 
 ## Project Overview
 This project involves cleaning and transforming a highly inconsistent, multi-regional dataset containing over 10,000 coffee shop transactions, customer details, and product inventory.
@@ -122,7 +122,7 @@ To provide an accurate financial and overview, several dynamic measures were cre
  With no selection, the charts show countries and years. With one country or year selected, they show that country's cities or that year's months. Clearing the slicer returns the chart to the top level, so it never shows every city or every month at once.
 
 
-## Executive Summary, Key Findings and Recommendations
+## Executive Summary Key Findings and Recommendations
 <img width="1446" height="811" alt="Coffee Sales Dashboard" src="https://github.com/user-attachments/assets/c860f090-7de6-4ed3-b5da-8bf636583277" />
 
 ### 1. Executive Summary
