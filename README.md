@@ -3,16 +3,16 @@
 ## Table of Content
 
 - [Project Overview](#project-overview)
-- [Cleaning/Preperation](#cleaning/preperation)
+- [Cleaning and Preparation](#cleaning-and-preparation)
 - [Next Steps](#next-steps)
-- [Executive Summary, Key Findings & Recommendations](#executive-summary,-key-findings-&-recommendations)
+- [Executive Summary, Key Findings and Recommendations](#executive-summary,-key-findings-and-recommendations)
 
 ## Project Overview
 This project involves cleaning and transforming a highly inconsistent, multi-regional dataset containing over 10,000 coffee shop transactions, customer details, and product inventory.
 
 The project aims to provide insights into the sales perfomance of a coffee shop over the pass 6 years, we seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company's performance.
 
-## Cleaning/Preperation
+## Cleaning and Preparation
 **Tool used:** PowerBi [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 
 ### Phase 1: Dimension Table - Customers
@@ -122,7 +122,7 @@ To provide an accurate financial and overview, several dynamic measures were cre
  With no selection, the charts show countries and years. With one country or year selected, they show that country's cities or that year's months. Clearing the slicer returns the chart to the top level, so it never shows every city or every month at once.
 
 
-## Executive Summary, Key Findings & Recommendations
+## Executive Summary, Key Findings and Recommendations
 <img width="1446" height="811" alt="Coffee Sales Dashboard" src="https://github.com/user-attachments/assets/c860f090-7de6-4ed3-b5da-8bf636583277" />
 
 ### 1. Executive Summary
