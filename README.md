@@ -114,7 +114,7 @@ To provide an accurate financial and overview, several dynamic measures were cre
 \- Clean Order Date (Used for Year, Quarter, Month, and Day trends)
 
 
-### Advanced DAX: Dynamic Axis (Country → City and Year → Month)
+#### Advanced DAX: Dynamic Axis (Country → City and Year → Month)
  To let a slicer control how detailed a chart is, without using drill-down arrows or Field Parameters, I built two disconnected axis tables: `GeoAxis` (Country → City) and `DateAxis` (Year → Month). Each one stacks the labels of every level into a single `Label` column, with a `Level` column (which level the label belongs to) and a `Parent` or `Yr` column (which country or year it belongs to). `DateAxis` also has a `Sort` column so months appear in calendar order.
 
  The charts use `Label` as their axis. Two measures, `Dynamic Revenue` and `Dynamic Revenue by Date`, use `SWITCH(TRUE())` with `SELECTEDVALUE` and `HASONEVALUE` to read what the slicer currently selects. They return `Total Net Revenue` (through `CALCULATE` and `KEEPFILTERS`) only for labels that belong to the right level, and `BLANK()` for all others, so Power BI hides them.
